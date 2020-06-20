@@ -13,7 +13,7 @@ while True:
   sleep(1)
   pixels.fill((0,0,130))
   sleep(1)
-  pixels.fill((0,0110))
+  pixels.fill((0,0,110))
   sleep(1)
   pixels.fill((0,0,90))
   sleep(1)
