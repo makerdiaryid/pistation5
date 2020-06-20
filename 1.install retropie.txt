@@ -1,0 +1,16 @@
+//download retropie rom dari website resminya
+\\download retropie rom from official website
+
+https://retropie.org.uk/download/
+
+//extrak img file dari img,gz file
+\\extract img file from img.gz file
+
+//gunakan ecther atau win32diskimager(cari di google) untuk memasukan rom yag sdh di download ke dalam microsd
+\\use ecther or win32diskimager(you can find it on google) and write the rom to the microsd
+
+//masukan microsd ke dalam raspberry pi, pasang keyboard dan mouse, pasang hdmi display, dan input power ke micro usb (5V 2.5 A)
+\\insert the microsd to the raspberry pi, plug mouse and keyboard, plug hdmi dsiplay, and add the power from micro usb (5V 2.5 A)
+
+//tunggu proses boot sampai muncul halaman setup dan ikuti setupnya(langkah pertama adalah gamped mapping..gunakan keyboard sebagai gamepad untuk mempermudah setup)
+\\wait for boot to finish and follow the setup wizard(first step are to setup yje gamepad mapping, just use your keyboard as gamepad first)

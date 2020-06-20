@@ -1,0 +1,63 @@
+//sambungkan pin led(in) dan gpio raspberry pi
+\\connect led pin(in) and the raspberry pi gpio
+
+LED1 ----------- RASPBERRY
+5V (IN) ---------- GPIO 5V
+DATA (IN) ------ GPIO D18
+G (IN) ----------- GPIO Ground
+
+//sambungkan LED1 dan LED2
+\\connect LED1 and LED2
+
+LED1 ---------- LED2
+5V (OUT) ----- 5V (IN)
+DATA (OUT) - DATA (IN)
+G (OUT) ------ G (IN)
+
+//buka terminal pada retropie dengan menekan "F4" pada keyboard, di halaman utama retropie
+\\open terminal on retropie with press "F4" key on retropie home
+
+//update repo dengan perintah
+\\update repo with command
+
+sudo apt-get update
+
+//install pip
+\\instal pip
+
+sudo apt-get install python3-pip
+
+//install lib untuk menjalankan led
+\\intsal led lib
+
+sudo pip3 install rpi_ws281x
+sudo pip3 install adafruit-circuitpython-neopixel
+
+//instal github repo dengan
+\\sintall github repi with
+
+sudo apt install git
+
+//clone git repo ke folder yang dinginkan ,contohnya
+\\clone the repo to some folder , for example
+
+cd /home/pi
+git clone git://github.com/makerdiaryid/pistation5
+
+//jalan python script
+\\run python script
+
+sudo python3 home/pi/pistation5/finalscript.py
+
+//harusnya lednya sdh nyala
+\\the led should be on righnow
+---------------------------------------------------------------------------
+//untuk menjalankan perintah setiap kali boot buka autostart.sh
+\\to run it on boot, open autostart.sh
+
+sudo nano /opt/retropie/configs/all/autostart.sh
+
+//tambahkan "sudo python3 home/pi/pistation5/finalscript.py &" sebelum baris "emulationstation"
+\\add "sudo python3 home/pi/pistation5/finalscript.py &" before line "emulationstation"
+
+

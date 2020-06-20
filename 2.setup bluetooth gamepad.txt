@@ -1,0 +1,5 @@
+//pada boot pertama kali silahkan konekan dan setup gamepad mapping dengan usb keyboard(ikuti petujuk setup keymappingnya)
+\\on the first boot you can connect the usb keyboard and mapping it as gamepad(just follow the setup wizard)
+
+//
+\\
